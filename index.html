@@ -4,13 +4,15 @@
 		<title>Calculadora - v.0.1</title>
 	</head>
 	<body>
-		<form>
+		<form action="processa.php" method="GET" >
 			<label>Primeiro Valor:</label>
 			<input type="number" name="valor1" />
 			
 			<select name="operacao">
 				<option value="+">+</option>
 				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
 			</select>
 			
 			<label>Segundo Valor:</label>
